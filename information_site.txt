@@ -1,0 +1,5 @@
+front page
+
+	- background-color: rgb(244, 234, 220);
+	- Petit Formal Script
+	- Garet Book

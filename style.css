@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0%;
+}
+
+#first_section{
+    height: 100vh;
+    background-color: rgb(244, 234, 220);
+    overflow: hidden;
+    
+}
+
+#container_first_section{
+    display: flex;
+}
+
+#image_front{
+    height: 120vh;
+    transform:translateX(30%) translateY(-10%) rotateZ(5deg);
+    
+}
+
+#txt_front_page{
+    text-align: center;
+    margin-left: 25%;
+    animation: anim 4s;
+}
+
+
+
+#txt_front_page h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 60px;
+}
+
+#txt_front_page h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#txt_front_page img{
+    height: 70px;
+}
+
+#container_lettre_forms{
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#red_flag{
+    color: red;
+}
+
+#youtube_video{
+    text-align: center;
+}
+
+footer{
+    border-top: dashed 2px black;
+    text-align: center;
+}
+
+#phone_contact{
+    display: flex;
+    transform: translateX(190%);
+    width: fit-content;
+}
+
+#phone_contact div p{
+    transform: translateY(130%);
+}
+
+@keyframes anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
