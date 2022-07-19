@@ -149,4 +149,31 @@ footer{
         transform: translateX(30%);
     }
 
+    #alerte{
+        display: none;
+    }
+
+}
+
+#alerte div p{
+    width: max-content;
+    animation: alert 20s infinite;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+#alerte{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(244, 234, 220);
+}
+
+@keyframes alert{
+    from{
+        transform: translateX(300%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
 }
